@@ -1,6 +1,43 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            p
+            {
+                font-size: 10pt;
+                font-weight: 800;
+
+            }
+            header
+            {
+                width: 100%;
+                height: 150px;
+                background-color: #ccc;
+                color: #66f;
+                padding-top:40px;
+                text-align: center;
+                
+            }
+            main
+            {
+                padding: 5px;
+                background-color: ccc;
+            }
+            section
+            {
+                background-color:rgba(255,255,255,.5);
+                padding: 5px;
+                border-radius: 30px;
+                
+            }
+            body
+            {
+                margin: 0px;
+                text-align: center
+            }
+        </style>
     <title>Notes Page | Home </title>
+
     </head>
     <body>
         <header>
@@ -19,14 +56,27 @@
         </nav>
         <main>
             <section>
-
+                <h1>CSS Notes</h1>
+                <h3>Syntax</h3>
+                <p>Selector {attribute: value;}</p>
+                <h3 style="font-family: minecraftia; font-weight: bolder;">Locations of CSS</h3>
+                <p> You can do your CSS styles in 3 different places<br>
+                    - Inline<br>
+                    - Document Head<br>
+                    - External Style Sheet</p>
+                    <p>There is an overwite order</p>
+                    <h3> 3 ways to apply styles</h3>
+                    <p>The 3 ways to apply styles to a block of html<br>
+                     - Hijack HTML tag<br>
+                     - Define a class and then apply it<br>
+                     - we define an id and then apply it</p>
             </section>
             <aside>
 
             </aside>
         </main>
-        <footer>
-
+        <footer style="border-width: 2px; border-color: #000; border-style: solid">
+            <span style="border: 2px solid #00a; font-style:italic;">&copy;Quinn Wood </span> | 2025
         </footer>
     </body>
 </html>
